@@ -1,0 +1,94 @@
+.col-md-6 img{
+    width: 40px;
+    height:40px;
+}
+.navbarlinks{
+    justify-content: space-around;
+    /* margin-right:15px */
+}
+.navbarlinks a{
+    padding: 10px;
+}
+ .uniform-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px; /* optional */
+  
+}
+.navbarlinks span{
+    font-size: 23px;
+    padding: 10px;
+}
+.col-md-6{
+    font-size: 23px;
+}
+
+.collection{
+
+  border: 1px solid #0d0d0d;
+  border-radius: 8px;
+  padding: 10px;
+  background: white;
+  margin: 5px;
+  font-family: sans-serif;
+
+
+
+}
+.shopnow{
+    border: solid gold 4.5px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.shopnow p{
+    text-align: center;
+    font-size: 20px;
+}
+.shopnowbtn{
+   margin-left: 45%;
+   background-color: gold;
+   border-radius: 20px;
+   height: 65px;
+  width: 150px;
+
+}
+.shopnowbtn a{
+    color: black;
+}
+header{
+    position: sticky;
+}
+#contact-us {
+    margin: 150px auto 25px;
+    border: 4.5px solid gold;
+    width: 80%;
+    max-width: 900px;
+    padding: 20px;
+    box-sizing: border-box; /* include padding in width */
+    border-radius: 8px; /* optional: rounded corners */
+
+}
+#about-us{
+    border: 4.5px solid gold;
+    background-color: #ccc;
+    width: 100%;
+}
+#footercol{
+    color: #d4d0d0;
+}
+#col1{
+    margin-left: 100px;
+}
+/* #about-us */
+/* #contact-us input,
+#contact-us textarea,
+#contact-us button {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    padding-left : 200px;
+    padding-right: 200px;
+    font-size: 1rem;
+} */

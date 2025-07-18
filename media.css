@@ -1,0 +1,86 @@
+/* media.css */
+
+/* Mobile responsiveness for ≤576px */
+@media (max-width: 576px) {
+  /* Header image icon resizing */
+  #iconimg {
+    width: 80px;
+    height: auto;
+  }
+
+  /* Navigation: Stack links or scroll */
+  .navbarlinks {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    font-size: 14px;
+  }
+  
+  .navlinks a {
+    font-size: 14px !important;
+    margin-right: 8px !important;
+  
+}
+
+
+
+  /* Banner image */
+  .bannerimg {
+    width: 100% !important;
+    height: 180px !important;
+    object-fit: cover;
+  }
+
+  /* Hide next button on small screen (optional) */
+  #nextbtn {
+    font-size: 24px;
+    top: 45%;
+    right: 10px;
+  }
+
+  /* Collection section - Stack vertically */
+  .collection {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .uniform-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  /* Contact and About sections */
+  #contact-us,
+  #about-us {
+    font-size: 16px;
+    padding: 20px 10px;
+    width: 100%;
+  }
+
+  /* Shop now button */
+  .shopnowbtn {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+      margin-left: 0px;
+  }
+
+  .shop-intro {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  footer .col {
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left:0px;
+
+  }
+  #col1{
+    margin-left: 10px;
+}
+}
